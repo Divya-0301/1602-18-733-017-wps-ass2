@@ -31,6 +31,8 @@ public class currency{
 			if(rs.next())
 			{
 				System.out.println(rs.getfloat(1)+","+rs.getfloat(2)+","+rs.getfloat(3));
+				File f=new File("c:/desktop/Documents/Cv " + i + ".pdf");
+                        fs=new FileOutputStream(f);
         if (code == 1) {
  
 			dollar = amount / 70;
@@ -97,3 +99,5 @@ public class currency{
 				System.out.println("error...");
 			}
 			cn.close();
+			}
+			 
