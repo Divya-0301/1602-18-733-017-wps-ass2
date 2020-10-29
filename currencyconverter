@@ -31,7 +31,7 @@ public class currency{
 			if(rs.next())
 			{
 				System.out.println(rs.getfloat(1)+","+rs.getfloat(2)+","+rs.getfloat(3));
-				File f=new File("c:/desktop/Documents/Cv " + i + ".pdf");
+				File f=new File("c:/desktop/Documents/converter " + i + ".pdf");
                         fs=new FileOutputStream(f);
         if (code == 1) {
  
