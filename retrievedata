@@ -35,7 +35,7 @@ public static void main(String[] args) throws Exception, IOException, SQLExcepti
       System.out.println("CGPA:"+rset.getInt(4));
       System.out.print("Yearofpassing " + rset.getInt(5));
       System.out.print(" Experience: "+rset.getString(6));
-      System.out.println(" Skills : "+rset.getInt(7));
+      System.out.println(" Skills : "+rset.getString(7));
      File f=new File("c:/desktop/Documents/Cv " + i + ".pdf");
      fs=new FileOutputStream(f);
      blob=rset.getBlob("name");
